@@ -29,6 +29,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-lock.yaml
 
 # IDE
 .vscode/
@@ -44,6 +45,7 @@ htmlcov/
 # Cursor
 .cursor/
 .claude/
+.opencode/
 
 # 文档与测试程序
 mydoc/

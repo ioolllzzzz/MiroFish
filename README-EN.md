@@ -152,8 +152,8 @@ npm run dev
 ```
 
 **Service URLs:**
-- Frontend: `http://localhost:3000`
-- Backend API: `http://localhost:5001`
+- Frontend: `http://localhost:37890`
+- Backend API: `http://localhost:37891`
 
 **Start Individually:**
 
@@ -172,7 +172,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Reads `.env` from root directory by default, maps ports `3000 (frontend) / 5001 (backend)`
+Reads `.env` from root directory by default, maps ports `37890 (frontend) / 37891 (backend)`
 
 > Mirror address for faster pulling is provided as comments in `docker-compose.yml`, replace if needed.
 

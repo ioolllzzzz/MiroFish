@@ -833,7 +833,7 @@ const stopPolling = () => {
 }
 
 const startProfilesPolling = () => {
-  profilesTimer = setInterval(fetchProfilesRealtime, 3000)
+  profilesTimer = setInterval(fetchProfilesRealtime, 37890)
 }
 
 const stopProfilesPolling = () => {

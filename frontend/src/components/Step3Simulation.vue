@@ -468,7 +468,7 @@ const startStatusPolling = () => {
 }
 
 const startDetailPolling = () => {
-  detailTimer = setInterval(fetchRunStatusDetail, 3000)
+  detailTimer = setInterval(fetchRunStatusDetail, 37890)
 }
 
 const stopPolling = () => {
